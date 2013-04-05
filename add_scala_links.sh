@@ -7,17 +7,14 @@ echo "Done"
 echo "Loading scala distribution..."
 wget http://www.scala-lang.org/downloads/distrib/files/scala-2.10.1.tgz \
 	&& tar -xzf scala-2.10.1.tgz
-
 echo "Done"
 
+# Move scala and delete archive
 echo "Moving scala distribution..."
-
-# Move the scala folder
 sudo mv scala-2.10.1 /usr/share/scala
 
 # Remove old scala package
 rm -r scala-2.10.1.tgz
-
 echo "Done"
 
 echo "Adding symbolic scala links"

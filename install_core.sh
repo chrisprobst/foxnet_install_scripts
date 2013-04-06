@@ -7,3 +7,4 @@ sudo apt-get install git xclip alien openjdk-7-jdk
 # the clipboard everywhere!!!! AWESOME x]
 # alias xclip="xclip -selection clipboard"
 
+

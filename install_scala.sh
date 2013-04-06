@@ -1,7 +1,7 @@
 # This script installs scala
 
 # Removing old distribution
-bash remove_scala_links.sh
+bash uninstall_scala.sh
 echo
 echo
 

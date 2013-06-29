@@ -1,0 +1,3 @@
+[submodule "ubuntu-raring-haskell"]
+	path = ubuntu-raring-haskell
+	url = git@github.com:chrisprobst/ubuntu-raring-haskell.git
